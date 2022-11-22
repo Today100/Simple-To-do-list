@@ -1,0 +1,71 @@
+.father_div {
+/*   border: 1px solid red; */
+  margin: auto;
+  display: flex;
+  max-width: 250px;
+}
+.child_text {
+  margin:0;
+}
+
+#todos {
+  min-height: 100px;
+  margin-top: 10px;
+}
+
+#thing {
+  border-radius: 10px;
+  border: 2px solid #00ccff;
+  padding: 5px;
+  
+}
+
+#thing:focus {
+  box-shadow: 0 0 5px #0087a8;
+  outline: none;
+  padding: 5px;
+}
+
+#add {
+  border-radius: 20px;
+  border: 2px solid #e5faff;
+  background: #e5faff;
+/*   color: #00ccff; */
+  
+}
+
+#achieved {
+/*   background: red; */
+  min-height: 100px;
+  text-decoration: line-through;
+  color: gray;
+  margin-top: 10px;
+  
+}
+
+body {
+  justify-content: center;
+  text-align: center;
+  background: #0068d6;
+ 
+}
+
+#card {
+  background: #8ae8ff;
+  border: 10px solid #8ae8ff;
+  border-radius: 20px;
+  min-height: 200px;
+  max-width: 500px;
+  margin:auto;
+  margin-top: 5%;
+}
+
+.checks {
+  border-radius: 10px;
+  width:20px;
+  height:20px;
+}
+
+p {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
